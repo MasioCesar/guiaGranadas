@@ -1,0 +1,42 @@
+[
+  {
+    "name": "mirage",
+    "grenadePlaces": [
+      {
+        "name": "Liga",
+        "gifSrc": "/images/gifs/liga.gif",
+        "imageSrc": "/images/mapas/mirage.png"
+      },
+      {
+        "name": "TR CT",
+        "gifSrc": "/images/gifs/trCt.gif",
+        "imageSrc": "/images/mapas/mirage.png"
+      },
+      {
+        "name": "Meio CT",
+        "gifSrc": "/images/gifs/meioCt.gif",
+        "imageSrc": "/images/mapas/mirage.png"
+      },
+      {
+        "name": "Janela da B",
+        "gifSrc": "/images/gifs/janelaMercado.gif",
+        "imageSrc": "/images/mapas/mirage.png"
+      },
+      {
+        "name": "Janela Meio",
+        "gifSrc": "/images/gifs/liga.gif",
+        "imageSrc": "/images/mapas/mirage.png"
+      },
+      {
+        "name": "Meio Alto",
+        "gifSrc": "/images/gifs/meioAlto.gif",
+        "imageSrc": "/images/mapas/mirage.png"
+      },
+      {
+        "name": "Porta da B",
+        "gifSrc": "/images/gifs/portaMercado.gif",
+        "imageSrc": "/images/mapas/mirage.png"
+      }
+    ]
+  }
+]

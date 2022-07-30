@@ -1,13 +1,24 @@
-import { Header } from "../components/Header";
-import { Mapas } from "../components/Mapas";
 
-export default function Event() {
-    return(
-        <div>
-            <Header />
-            <main>
-                <Mapas />
-            </main>
-        </div>
+import { Maps } from "../components/Maps";
+import { MapModel } from "../models/Map"
+import MapsData from "../data/maps.json"
+
+type HomeProps = {
+    maps: MapModel[]
+}
+
+
+export default function Home({ maps }: HomeProps) {
+    return (
+
+        <Maps maps={maps} />
+
     )
+}
+
+
+export async function getStaticProps() {
+    const maps: MapModel[] = MapsData
+
+    return maps ? { props: { maps: maps } } : { notFound: true };
 }
