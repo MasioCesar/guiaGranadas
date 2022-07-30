@@ -1,0 +1,30 @@
+[
+  {
+    "name": "mirage",
+    "imageSrc": "/images/mapas/mirage.png"
+  },
+  {
+    "name": "inferno",
+    "imageSrc": "/images/mapas/inferno.png"
+  },
+  {
+    "name": "overpass",
+    "imageSrc": "/images/mapas/overpass.png"
+  },
+  {
+    "name": "nuke",
+    "imageSrc": "/images/mapas/nuke.png"
+  },
+  {
+    "name": "vertigo",
+    "imageSrc": "/images/mapas/vertigo.png"
+  },
+  {
+    "name": "dust",
+    "imageSrc": "/images/mapas/dust.png"
+  },
+  {
+    "name": "ancient",
+    "imageSrc": "/images/mapas/ancient.png"
+  }
+]
