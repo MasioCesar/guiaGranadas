@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { GrenadePlaceModel } from "../models/GrenadePlace"
 
 type GrenadeCardProps = {
