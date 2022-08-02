@@ -20,7 +20,7 @@ export function GrenadePlace({ gifSrc, hidden, setHidden }: GrenadePlaceProps) {
             <button>x</button>
           </div>
  
-          <picture><img className="rounded-lg pb-10" src={gifSrc} alt="" /> </picture>
+          <picture><img className="rounded-lg pb-10" src={gifSrc} alt="Gif Granada" /> </picture>
 
         </div>
 
