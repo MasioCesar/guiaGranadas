@@ -2,7 +2,6 @@ import { MapPlaces } from "../../models/MapPlaces"
 import { MapModel } from "../../models/Map"
 import MapsPlaces from "../../data/maps_places.json"
 import Maps from "../../data/maps.json"
-import { MapTopBar } from "../../components/MapTopBar"
 import { useState } from "react"
 import { GrenadePlaces } from "../../components/GrenadePlaces"
 

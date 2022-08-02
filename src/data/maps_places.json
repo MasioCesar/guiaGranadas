@@ -3,40 +3,109 @@
     "name": "mirage",
     "grenadePlaces": [
       {
+        "name": "TR Cabecinha",
+        "gifSrc": "/images/gifs/mirage/cabecinha.gif",
+        "imageSrc": "/images/gifs/mirage/cabecinha.png"
+      },
+      {
         "name": "Liga",
-        "gifSrc": "/images/gifs/liga.gif",
-        "imageSrc": "/images/mapas/mirage.png"
+        "gifSrc": "/images/gifs/mirage/liga.gif",
+        "imageSrc": "/images/gifs/mirage/liga.png"
       },
       {
         "name": "TR CT",
-        "gifSrc": "/images/gifs/trCt.gif",
-        "imageSrc": "/images/mapas/mirage.png"
+        "gifSrc": "/images/gifs/mirage/trCt.gif",
+        "imageSrc": "/images/gifs/mirage/trCt.png"
       },
       {
         "name": "Meio CT",
-        "gifSrc": "/images/gifs/meioCt.gif",
-        "imageSrc": "/images/mapas/mirage.png"
+        "gifSrc": "/images/gifs/mirage/meioCt.gif",
+        "imageSrc": "/images/gifs/mirage/meioCt.png"
       },
       {
         "name": "Janela da B",
-        "gifSrc": "/images/gifs/janelaMercado.gif",
-        "imageSrc": "/images/mapas/mirage.png"
+        "gifSrc": "/images/gifs/mirage/janelaMercado.gif",
+        "imageSrc": "/images/gifs/mirage/janelaMercado.png"
       },
       {
         "name": "Janela Meio",
-        "gifSrc": "/images/gifs/liga.gif",
-        "imageSrc": "/images/mapas/mirage.png"
-      },
-      {
-        "name": "Meio Alto",
-        "gifSrc": "/images/gifs/meioAlto.gif",
-        "imageSrc": "/images/mapas/mirage.png"
-      },
-      {
-        "name": "Porta da B",
-        "gifSrc": "/images/gifs/portaMercado.gif",
-        "imageSrc": "/images/mapas/mirage.png"
+        "gifSrc": "/images/gifs/mirage/janelao.gif",
+        "imageSrc": "/images/gifs/mirage/janelao.png"
       }
+    ]
+  },
+
+  {
+    "name": "dust",
+    "grenadePlaces": [
+      {
+        "name": "Caixa Gorda",
+        "gifSrc": "/images/gifs/dust/caixaGorda.gif",
+        "imageSrc": "/images/gifs/dust/caixaGorda.png"
+      },
+      {
+        "name": "Fundo CT",
+        "gifSrc": "/images/gifs/dust/fundoCt.gif",
+        "imageSrc": "/images/gifs/dust/fundoCt.png"
+      },
+      {
+        "name": "Meio CT",
+        "gifSrc": "/images/gifs/dust/meioCt.gif",
+        "imageSrc": "/images/gifs/dust/meioCt.png"
+      },
+      {
+        "name": "Porta bomb B",
+        "gifSrc": "/images/gifs/dust/portaB.gif",
+        "imageSrc": "/images/gifs/dust/portaB.png"
+      },
+      {
+        "name": "Passagem Curta",
+        "gifSrc": "/images/gifs/dust/passagemCurta.gif",
+        "imageSrc": "/images/gifs/dust/passagemCurta.png"
+      },
+      {
+        "name": "Passagem Longa",
+        "gifSrc": "/images/gifs/dust/passagemLonga.gif",
+        "imageSrc": "/images/gifs/dust/passagemLonga.png"
+      }
+
+    ]
+  },
+
+  {
+    "name": "inferno",
+    "grenadePlaces": [
+      {
+        "name": "Base CT",
+        "gifSrc": "/images/gifs/inferno/baseCt.gif",
+        "imageSrc": "/images/gifs/inferno/baseCt.png"
+      },
+      {
+        "name": "Caixão",
+        "gifSrc": "/images/gifs/inferno/caixao.gif",
+        "imageSrc": "/images/gifs/inferno/caixao.png"
+      },
+      {
+        "name": "NIP",
+        "gifSrc": "/images/gifs/inferno/nip.gif",
+        "imageSrc": "/images/gifs/inferno/nip.png"
+      },
+      {
+        "name": "Arco",
+        "gifSrc": "/images/gifs/inferno/arco.gif",
+        "imageSrc": "/images/gifs/inferno/arco.png"
+      },
+      {
+        "name": "Areia 2",
+        "gifSrc": "/images/gifs/inferno/areia2.gif",
+        "imageSrc": "/images/gifs/inferno/areia2.png"
+      },
+      {
+        "name": "Carroça",
+        "gifSrc": "/images/gifs/inferno/carroca.gif",
+        "imageSrc": "/images/gifs/inferno/carroca.png"
+      }
+
     ]
   }
 ]

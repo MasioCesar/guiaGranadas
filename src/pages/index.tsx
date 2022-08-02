@@ -1,4 +1,3 @@
-
 import { Maps } from "../components/Maps";
 import { MapModel } from "../models/Map"
 import MapsData from "../data/maps.json"

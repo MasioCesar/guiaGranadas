@@ -19,7 +19,7 @@ export function GrenadePlaces({ places }: GrenadePlacesProps) {
     <>
       <div className="flex justify-center">
       <GrenadePlace gifSrc={gifSrc} hidden={hidden} setHidden={setHidden}/>
-        <div className="grid p-2 grid-cols-2 md:grid-cols-3 gap-2 max-w-6xl">
+        <div className="grid p-2 grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl">
 
           {
             places.map((p) => (

@@ -17,7 +17,7 @@ export function GrenadePlace({ gifSrc, hidden, setHidden }: GrenadePlaceProps) {
             className="absolute top-5 right-6"
             onClick={ () => setHidden(true)}
           >
-            x
+            <button>x</button>
           </div>
 
           <img className="rounded-lg pb-10" src={gifSrc} />
