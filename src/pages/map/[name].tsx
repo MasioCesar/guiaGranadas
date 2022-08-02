@@ -2,7 +2,6 @@ import { MapPlaces } from "../../models/MapPlaces"
 import { MapModel } from "../../models/Map"
 import MapsPlaces from "../../data/maps_places.json"
 import Maps from "../../data/maps.json"
-import { useState } from "react"
 import { GrenadePlaces } from "../../components/GrenadePlaces"
 
 type MapProps = {
@@ -16,11 +15,8 @@ type StaticProps = {
 }
 
 export default function Map({ mapPlaces }: MapProps) {
-  const [place, setPlace] = useState<string>()
   return (
     <>
-      {/* <MapTopBar names={mapPlaces.grenadePlaces.map((g) => g.name)} setPlace={setPlace} /> */}
-
       <GrenadePlaces places={mapPlaces.grenadePlaces} />
     </>
   )
