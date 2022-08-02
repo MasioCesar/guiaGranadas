@@ -15,6 +15,7 @@ export function GrenadeCard({ grenadePlace, setGifSrc, show }: GrenadeCardProps)
         <img
           className="rounded-xl border border-yellow-200"
           src={grenadePlace.imageSrc}
+          alt={grenadePlace.name}
           onClick={() => {
             setGifSrc(grenadePlace.gifSrc)
             show()
