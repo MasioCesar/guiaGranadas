@@ -12,14 +12,17 @@ export function GrenadeCard({ grenadePlace, setGifSrc, show }: GrenadeCardProps)
   return (
     <>
       <abbr title={grenadePlace.name}>
-        <img
-          className="rounded-xl border border-yellow-200"
-          src={grenadePlace.imageSrc}
-          alt={grenadePlace.name}
-          onClick={() => {
-            setGifSrc(grenadePlace.gifSrc)
-            show()
-          }} /> </abbr>
+        <picture>
+          <img
+            className="rounded-xl border border-yellow-200"
+            src={grenadePlace.imageSrc}
+            alt={grenadePlace.name}
+            onClick={() => {
+              setGifSrc(grenadePlace.gifSrc)
+              show()
+            }} />
+        </picture>
+          </abbr>
     </>
   )
 }

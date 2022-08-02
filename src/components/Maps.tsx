@@ -15,7 +15,7 @@ export function Maps({ maps }: MapsProps) {
                     {
                         maps.map((m) => (
                             <Link href={`/map/${m.name}`} key={m.name}>
-                                <abbr title={m.name}> <img className="rounded-xl border border-yellow-200" src={m.imageSrc} alt={m.name} /> </abbr>
+                                <abbr title={m.name}> <picture><img className="rounded-xl border border-yellow-200" src={m.imageSrc} alt={m.name} /></picture> </abbr>
                             </Link>
                         ))
                     }
