@@ -4,6 +4,10 @@ import '../styles/globals.css';
 
 function App({ Component, pageProps }: AppProps) {
   return (
+    //@ts-ignore
+    global.performance = global.performance || {
+    now: () => new Date().getTime(),
+    }
     (
       <>
       <Header />
