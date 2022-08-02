@@ -17,6 +17,8 @@ type StaticProps = {
 export default function Map({ mapPlaces }: MapProps) {
   return (
     <>
+      {/* <MapTopBar names={mapPlaces.grenadePlaces.map((g) => g.name)} setPlace={setPlace} /> */}
+
       <GrenadePlaces places={mapPlaces.grenadePlaces} />
     </>
   )
@@ -35,7 +37,7 @@ export async function getStaticPaths() {
   ))
 
 
-  return { paths, fallback: true }
+  return { paths, fallback: false }
 }
 
 
