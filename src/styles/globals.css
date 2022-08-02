@@ -5,4 +5,8 @@
 body {
     @apply bg-black text-gray-100 mb-4;
     -webkit-font-smoothing: antialiased;
+    //@ts-ignore
+    global.performance = global.performance || {
+    now: () => new Date().getTime(),
+    };
 }
