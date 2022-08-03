@@ -107,5 +107,152 @@
       }
 
     ]
+  },
+
+  {
+    "name": "overpass",
+    "grenadePlaces": [
+      {
+        "name": "Bomb B",
+        "gifSrc": "/images/gifs/overpass/bombB.gif",
+        "imageSrc": "/images/gifs/overpass/bombB.png"
+      },
+      {
+        "name": "Céu",
+        "gifSrc": "/images/gifs/overpass/ceu.gif",
+        "imageSrc": "/images/gifs/overpass/ceu.png"
+      },
+      {
+        "name": "Lixeiro",
+        "gifSrc": "/images/gifs/overpass/lixeiro.gif",
+        "imageSrc": "/images/gifs/overpass/lixeiro.png"
+      },
+      {
+        "name": "Meio Falso",
+        "gifSrc": "/images/gifs/overpass/meioFalso.gif",
+        "imageSrc": "/images/gifs/overpass/meioFalso.png"
+      },
+      {
+        "name": "Rua",
+        "gifSrc": "/images/gifs/overpass/rua.gif",
+        "imageSrc": "/images/gifs/overpass/rua.png"
+      },
+      {
+        "name": "Tóxico",
+        "gifSrc": "/images/gifs/overpass/toxico.gif",
+        "imageSrc": "/images/gifs/overpass/toxico.png"
+      }
+
+    ]
+  },
+
+  {
+    "name": "vertigo",
+    "grenadePlaces": [
+      {
+        "name": "Bomb A",
+        "gifSrc": "/images/gifs/vertigo/bombA.gif",
+        "imageSrc": "/images/gifs/vertigo/bombA.png"
+      },
+      {
+        "name": "Corredor",
+        "gifSrc": "/images/gifs/vertigo/corredor.gif",
+        "imageSrc": "/images/gifs/vertigo/corredor.png"
+      },
+      {
+        "name": "Andaime",
+        "gifSrc": "/images/gifs/vertigo/andaime.gif",
+        "imageSrc": "/images/gifs/vertigo/andaime.png"
+      },
+      {
+        "name": "Meio",
+        "gifSrc": "/images/gifs/vertigo/meio.gif",
+        "imageSrc": "/images/gifs/vertigo/meio.png"
+      },
+      {
+        "name": "Favela",
+        "gifSrc": "/images/gifs/vertigo/favela.gif",
+        "imageSrc": "/images/gifs/vertigo/favela.png"
+      },
+      {
+        "name": "Bomb B",
+        "gifSrc": "/images/gifs/vertigo/bombB.gif",
+        "imageSrc": "/images/gifs/vertigo/bombB.png"
+      }
+
+    ]
+  },
+
+  {
+    "name": "nuke",
+    "grenadePlaces": [
+      {
+        "name": "Garagem",
+        "gifSrc": "/images/gifs/nuke/garagem.gif",
+        "imageSrc": "/images/gifs/nuke/garagem.png"
+      },
+      {
+        "name": "Passagem Curta",
+        "gifSrc": "/images/gifs/nuke/passagemCurta.gif",
+        "imageSrc": "/images/gifs/nuke/passagemCurta.png"
+      },
+      {
+        "name": "Passagem Longa",
+        "gifSrc": "/images/gifs/nuke/passagemLonga.gif",
+        "imageSrc": "/images/gifs/nuke/passagemLonga.png"
+      },
+      {
+        "name": "Terra",
+        "gifSrc": "/images/gifs/nuke/terra.gif",
+        "imageSrc": "/images/gifs/nuke/terra.png"
+      },
+      {
+        "name": "Céu",
+        "gifSrc": "/images/gifs/nuke/ceu.gif",
+        "imageSrc": "/images/gifs/nuke/ceu.png"
+      },
+      {
+        "name": "Casinha",
+        "gifSrc": "/images/gifs/nuke/casinha.gif",
+        "imageSrc": "/images/gifs/nuke/casinha.png"
+      }
+
+    ]
+  },
+
+  {
+    "name": "ancient",
+    "grenadePlaces": [
+      {
+        "name": "Bomb A",
+        "gifSrc": "/images/gifs/ancient/bombA.gif",
+        "imageSrc": "/images/gifs/ancient/bombA.png"
+      },
+      {
+        "name": "Corredor do A",
+        "gifSrc": "/images/gifs/ancient/corredor.gif",
+        "imageSrc": "/images/gifs/ancient/corredor.png"
+      },
+      {
+        "name": "Meio",
+        "gifSrc": "/images/gifs/ancient/meio.gif",
+        "imageSrc": "/images/gifs/ancient/meio.png"
+      },
+      {
+        "name": "Casinha",
+        "gifSrc": "/images/gifs/ancient/casinha.gif",
+        "imageSrc": "/images/gifs/ancient/casinha.png"
+      },
+      {
+        "name": "Beco Direito",
+        "gifSrc": "/images/gifs/ancient/becoDireito.gif",
+        "imageSrc": "/images/gifs/ancient/becoDireito.png"
+      },
+      {
+        "name": "Beco Esquerdo",
+        "gifSrc": "/images/gifs/ancient/becoEsquerdo.gif",
+        "imageSrc": "/images/gifs/ancient/becoEsquerdo.png"
+      }
+    ]
   }
 ]

@@ -1,3 +1,4 @@
+import { X } from "phosphor-react";
 
 type GrenadePlaceProps = {
   setHidden: (value: boolean | ((prevVar: boolean) => boolean)) => void;
@@ -17,7 +18,7 @@ export function GrenadePlace({ gifSrc, hidden, setHidden }: GrenadePlaceProps) {
             className="absolute top-5 right-6"
             onClick={ () => setHidden(true)}
           >
-            <button>x</button>
+            <button><X size={32} color="#c4ab08" /></button>
           </div>
  
           <picture><img className="rounded-lg pb-10" src={gifSrc} alt="Gif Granada" /> </picture>
