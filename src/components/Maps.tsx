@@ -11,7 +11,7 @@ export function Maps({ maps }: MapsProps) {
     return (
         
             <div className="flex justify-center">
-                <div className="grid px-2 grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl">
+                <div className="grid px-2 grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mt-1">
                     {
                         maps.map((m) => (
                             <Link href={`/map/${m.name}`} key={m.name}>
