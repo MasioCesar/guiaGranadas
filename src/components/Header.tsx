@@ -19,7 +19,7 @@ export function Header() {
             </span>
 
             <Link href="/home">
-                <a className="absolute  left-1/2 transform -translate-x-1/2 "> <Logo /> </a>
+                <a className="absolute left-1/2 transform -translate-x-1/2 "> <Logo /> </a>
             </Link>
         </header>
     )

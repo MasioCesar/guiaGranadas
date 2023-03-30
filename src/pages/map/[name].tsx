@@ -18,8 +18,11 @@ export default function Map({ mapPlaces }: MapProps) {
   return (
     <>
       {/* <MapTopBar names={mapPlaces.grenadePlaces.map((g) => g.name)} setPlace={setPlace} /> */}
-
-      <GrenadePlaces places={mapPlaces.grenadePlaces} />
+      <div className="flex-1">
+        <div className="ml-64">
+          <GrenadePlaces places={mapPlaces.grenadePlaces} />
+        </div>
+      </div>
     </>
   )
 

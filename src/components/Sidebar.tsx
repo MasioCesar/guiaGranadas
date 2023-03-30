@@ -11,7 +11,7 @@ const Sidebar = () => {
 
     return (
         <div className="fixed h-screen w-64 bg-gray-700 flex flex-col">
-            <img src="/images/logoKnife.png" alt="Logo Knife" className="mx-auto mb-4 mt-2" width="250" />
+            <img src="/images/logoprataGlobal.png" alt="Logo Knife" className="mx-auto mb-4 mt-2" width="250" />
             <a href="#" className="px-4 py-2 text-gray-300 hover:bg-gray-600 mt-4 flex items-center">
                 <FiUser className="mr-2 w-5" />Perfil
             </a>
