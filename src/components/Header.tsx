@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { CaretDoubleLeft } from "phosphor-react";
 import { Logo } from "./Logo";
 
-export function Header() {
+export function Header(props: {setActive: any}) {
     const router = useRouter()
 
     if (router.pathname === "/") {

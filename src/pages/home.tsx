@@ -9,11 +9,7 @@ type HomeProps = {
 
 export default function Home({ maps }: HomeProps) {
     return (
-        <div className="flex-1">
-            <div className="ml-64">
-                <Maps maps={maps} />
-            </div>
-        </div>
+        <Maps maps={maps} />
     )
 }
 
