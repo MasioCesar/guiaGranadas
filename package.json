@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "firebase": "^9.21.0",
     "formik": "^2.2.9",
     "next": "^12.2.2",
     "phosphor-react": "^1.4.1",
