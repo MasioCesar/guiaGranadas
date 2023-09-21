@@ -9,9 +9,7 @@ type HomeProps = {
 
 export default function Home({ maps }: HomeProps) {
     return (
-
         <Maps maps={maps} />
-
     )
 }
 
