@@ -18,16 +18,11 @@ export default function Map({ mapPlaces }: MapProps) {
   return (
     <>
       {/* <MapTopBar names={mapPlaces.grenadePlaces.map((g) => g.name)} setPlace={setPlace} /> */}
-      <div className="flex-1">
-        <div className="ml-64">
-          <GrenadePlaces places={mapPlaces.grenadePlaces} />
-        </div>
-      </div>
+
+      <GrenadePlaces places={mapPlaces.grenadePlaces} />
     </>
   )
-
 }
-
 
 export async function getStaticPaths() {
   const maps: MapModel[] = Maps
@@ -38,11 +33,8 @@ export async function getStaticPaths() {
       }
     }
   ))
-
-
   return { paths, fallback: false }
 }
-
 
 export async function getStaticProps({ params }: StaticProps) {
   const mapsPlaces: MapPlaces[] = MapsPlaces
